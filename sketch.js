@@ -151,7 +151,7 @@ function draw() {
     }
 
     // U CAN CHANGE THE > 40 AS PER YOUR REQUIREMENT
-    if (score > 40) {
+    if (score > 100) {
       gameState = "startlevel2";
       levelJustChanged = 1
     }
